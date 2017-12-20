@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "c-e",
   "version": "0.0.0",
   "description": "Making custom error classes",
