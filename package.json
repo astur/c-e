@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "c-e",
+  "version": "0.0.0",
+  "description": "Making custom error classes",
+  "author": "astur <astur@yandex.ru> (http://kozlov.am/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && ava"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "eslint": "^4.7.2",
+    "eslint-config-astur": "0.0.2"
+  },
+  "keywords": [
+    "error",
+    "custom"
+  ],
+  "license": "MIT"
+}
