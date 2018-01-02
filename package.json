@@ -1,6 +1,6 @@
 {
   "name": "c-e",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Making custom error classes",
   "author": "astur <astur@yandex.ru> (http://kozlov.am/)",
   "main": "index.js",
