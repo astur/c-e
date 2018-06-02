@@ -4,6 +4,8 @@ const ce = require('.');
 test('name and message', t => {
     const CustomError = ce();
     const BaseError = ce('BaseError', CustomError);
+    t.is(CustomError.name, 'CustomError');
+    t.is(BaseError.name, 'BaseError');
     t.is(new CustomError().name, 'CustomError');
     t.is(new BaseError().name, 'BaseError');
     t.is(new BaseError('test').message, 'test');

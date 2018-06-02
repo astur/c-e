@@ -19,6 +19,8 @@ const ce = require('c-e');
 const CustomError = ce();
 const NestedError = ce('NestedError', CustomError);
 
+CustomError.name === 'CustomError';         // true
+NestedError.name === 'NestedError';         // true
 new CustomError().name === 'CustomError';   // true
 new NestedError().name === 'NestedError';   // true
 new NestedError('test').message === 'test'; // true

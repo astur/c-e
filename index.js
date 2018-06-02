@@ -13,5 +13,6 @@ module.exports = (
     }
     inherits(_err, parent);
     _err.prototype.name = name;
+    Object.defineProperty(_err, 'name', {value: name, configurable: true});
     return _err;
 };
